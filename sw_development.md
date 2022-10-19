@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Another page
+title: Acompanying Software Development
 description: This is just another page
 ---
 
-## Welcome to another page
+## Supporting developers arround ZoKrates
 
 _yay_
 
