@@ -8,7 +8,9 @@ ZoKratesPlus is a publicly funded project for exploring new application contexts
 # Technology: ZoKrates
 ZoKrates allows you to extend your DApp through privacy-preserving and scalable off-chain computations without compromising key properties of blockchains. Thereby, you can reduces transaction costs and balance between privacy and transparency. 
 
-# Application Contexts
+![ZoKrates in KYC](https://raw.githubusercontent.com/ZoKratesPlus/zokratesplus.github.io/customize_template/zokrates.png)
+
+## Application Contexts
 
 ### Transaction Aggregation
 
@@ -39,3 +41,6 @@ ZoKrates allows you to extend your DApp through privacy-preserving and scalable 
 
 
 Currently, we are trying to identify projects that would benefit most from our support. Feel free to [reach out](./contact.html) and share your practical zero knowledge experience or needs.
+
+
+
