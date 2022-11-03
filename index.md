@@ -2,11 +2,11 @@
 layout: default
 ---
 
-# ZoKratesPlus
-ZoKratesPlus is a publicly funded project for exploring new application contexts, nurturing the zero knowledge community, and advancing zero knowledge based technologies.
-
-# ZoKrates
+# Technology: ZoKrates
 ZoKrates allows you to extend your DApp through privacy-preserving and scalable off-chain computations without compromising key properties of blockchains. Thereby, you can reduces transaction costs and balance between privacy and transparency. 
+
+# Project: ZoKratesPlus
+ZoKratesPlus is a publicly funded project for exploring new application contexts, nurturing the zero knowledge community, and advancing zero knowledge based technologies.
 
 # Application Contexts
 
