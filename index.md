@@ -2,32 +2,48 @@
 layout: default
 ---
 
-
-# ZoKrates
-ZoKrates allows for verifiable, privacy-preserving off-chain computations that can help to scale blockchains without compromising their key properties. Hence, allowing for lower transaction costs and enabling privacy without loss of transparency.
-
 # ZoKratesPlus
 ZoKratesPlus is a publicly funded project for exploring new application contexts, nurturing the zero knowledge community, and advancing zero knowledge based technologies.
 
+# ZoKrates
+ZoKrates allows you to extend your DApp through privacy-preserving and scalable off-chain computations without compromising key properties of blockchains. Thereby, you can reduces transaction costs and balance between privacy and transparency. 
 
-# Existing Application Contexts
+# Application Contexts
 
 ## Transaction Aggregation
-Zero Knowledge rollups reduce transactional costs and enhance privacy by aggregating transactions offchain and presenting zero knowledge proofs of correct computation, which are then verified on chain. [Polygon Nightfall](https://polygon.technology/solutions/polygon-nightfall/) [uses ZoKrates](https://github.com/EYBlockchain/nightfall_3) to generate zkSNARKs that are verified in a dedicated smart contract on chain.
+
+*   Context: Rollups enable verifiable off-chain aggregation of token transaction, thereby, reducing transactional costs and enabling privacy.
+
+*   Potential: Through ZoKrates, the transaction aggregation can be executed as a zkSNARK that is verifiable by a dedicated Rollup smart contract.
+
+*   Technology: ZoKrates represents the core of [Polygon Nightfall](https://polygon.technology/solutions/polygon-nightfall/), a novel rollup protocol [developed by EY](https://github.com/EYBlockchain/nightfall_3) and Polygon that is now live.
 
 
 ## Anonymous Credentials
-Zero Knowledge proofs enable the verification of identity-related properties without revealing unnecessary information. Hence, allowing for the verification of anonymous credentials by DApps and [other novel aspects](https://arxiv.org/pdf/2209.09584.pdf) that improve on the state of the art. A credential system the world wide web consortium provides [recommendations](https://www.w3.org/TR/vc-data-model/) for verifiable credentials.
 
-https://github.com/JonathanHeiss/ZoKrates-Credential-Verification 
+*   Context: Anonymous credentials enable the verification of identity-related information without revealing confidential information to the verifier.
+
+*   Potential: ZoKrates enables the [verification of anonymous credentials (ACs) by DApps](https://github.com/JonathanHeiss/ZoKrates-Credential-Verification) more cost efficienctly, thereby, [improving on the state-of-the-art](https://arxiv.org/pdf/2209.09584.pdf).
+
+*   Technology: A credential system has been designed and implemented in compliance with the [W3C recommandations](https://www.w3.org/TR/vc-data-model/) for verifiable credentials.
+
 
 ## Accounting in Energy Grids
-Households that act as energy prosumers can benefit by forming communities to trade energy locally.
 
-Zero Knowledge proofs enable [transparent accounting](https://www.ise.tu-berlin.de/fileadmin/fg308/publications/2020/preprint-ICBC-Eberhard.pdf) computations on confidential information such as smart meter measurements without revealing the information to other community members. [Field experiments](https://github.com/JacobEberhardt/decentralized-energy-trading) and prototypes helped to demonstrate privacy-preserving accounting in energy grids with ZoKrates. 
+*   Context: Households acting as energy prosumers can benefit by organizing themselves in a community and trade energy among community member.
+
+*   Potential: Thanks to ZoKrates, confidential information required for [accounting](https://www.ise.tu-berlin.de/fileadmin/fg308/publications/2020/preprint-ICBC-Eberhard.pdf), e.g., smart meter measurements, can be used on the blockchain without being revealed to other community members.
+
+*   Technology: The application of ZoKrates for privacy-preserving accounting in energy grids has been validated in a larger research project in form of prototypes and [field experiments](https://github.com/JacobEberhardt/decentralized-energy-trading). 
+
 
 ## Federated Learning
-Blockchains improve security guarantees of federated learning by making the global model management more transparent and tamper-resistant. However, the integrity of training data introduced by edge devices poses a vulnerability. Zero Knowledge proofs allow for local training among edge devices, which then provide integrity proofs that are verified on chain when updating the global model. The performance and applicability of [such a system](https://arxiv.org/pdf/2206.11641.pdf) were evaluated in a [proof of concept](https://github.com/NikolasHaimerl/Advancing-Blockchain-Based-Federated-Learning-Through-Verifiable-Off-Chain-Computations) implementation.
+
+*   Context: Blockchains improve security guarantees of [federated learning](https://arxiv.org/pdf/2206.11641.pdf) by making the global model management more transparent and tamper-resistant.
+
+*   Potential: Through ZoKrates, also the local training executed by edge devices becomes verifiable on the blockchain, thereby, extending gained properties to the who learning process.
+
+*   Technology: A system design and [proof of concept](https://github.com/NikolasHaimerl/Advancing-Blockchain-Based-Federated-Learning-Through-Verifiable-Off-Chain-Computations) implementation demonstrates technical feasibility and reveals initial insights regarding the system’s performance and applicability. 
 
 
 Currently, we are trying to identify projects that would benefit most from our support. Feel free to [reach out](./contact.html) and share your practical zero knowledge experience or needs.
