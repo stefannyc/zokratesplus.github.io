@@ -10,6 +10,8 @@ ZoKrates allows you to extend your DApp through privacy-preserving and scalable 
 
 ![ZoKrates in KYC](https://raw.githubusercontent.com/ZoKratesPlus/zokratesplus.github.io/customize_template/zokrates.png)
 
+A ZoKrates program written in a domain specific language is compiled into an abstraction (flattened code), which is compattible with zkSNARK proof systems. Proving and verification keys are generated in the setup phase. Subsequently, a prover runs the program and applies the proving key to generate a proof that is later verified with the verification key.
+
 ## Application Contexts
 
 ### Transaction Aggregation
