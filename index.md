@@ -5,12 +5,13 @@ layout: default
 # ZoKratesPlus
 ZoKratesPlus is a publicly funded project for exploring new application contexts, nurturing the zero knowledge community, and advancing zero knowledge based technologies.
 
-# Technology: ZoKrates
-ZoKrates allows you to extend your DApp through privacy-preserving and scalable off-chain computations without compromising key properties of blockchains. Thereby, you can reduces transaction costs and balance between privacy and transparency. 
+# ZoKrates
+ZoKrates allows you to extend your DApp through privacy-preserving and [scalable off-chain computations](https://www.ise.tu-berlin.de/fileadmin/fg308/publications/2018/2018_eberhardt_ZoKrates.pdf) without compromising key properties of blockchains. Thereby, you can reduces transaction costs and balance between privacy and transparency. 
 
 ![ZoKrates in KYC](https://raw.githubusercontent.com/ZoKratesPlus/zokratesplus.github.io/customize_template/zokrates.png)
 
-A ZoKrates program written in a domain specific language is compiled into an abstraction (flattened code), which is compattible with zkSNARK proof systems. Proving and verification keys are generated in the setup phase. Subsequently, a prover runs the program and applies the proving key to generate a proof that is later verified with the verification key.
+A [ZoKrates](https://github.com/Zokrates/ZoKrates) program written in a [domain specific language](https://zokrates.github.io/language/variables.html) is compiled into an abstraction (flattened code), which is compattible with zkSNARK proof systems. Proving and verification keys are generated in the setup phase. Subsequently, a prover runs the program and applies the proving key to generate a proof that is later verified with the verification key.
+
 
 ## Application Contexts
 
