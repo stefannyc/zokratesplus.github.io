@@ -15,13 +15,13 @@ A [ZoKrates](https://github.com/Zokrates/ZoKrates) program written in a [domain 
 
 ## Application Contexts
 
-| Vertical                         | Candidate         | Prototype | Pilot  | Deployment |
-|:---------------------------------|:------------------|:----------|:-------|:-----------|
-| Transaction Aggregation          | zkRollups / Tezos |           |        | Polygon    |
-| Credential Verification / KYC    |                   | zkMe      |        |            |
-| Accounting in Energy Grids       |                   |           | BloGPV |            |
-| Business Process management      |                   | ykFL      |        | Baseline   |
-| Federated Learning               |                   |           |        |            |
+|                                      | Candidate         | Prototype | Pilot  | Deployment |
+|:-------------------------------------|:------------------|:----------|:-------|:-----------|
+| **Transaction Aggregation**          | zkRollups / Tezos |           |        | [Polygon](https://polygon.technology/solutions/polygon-nightfall/)    |
+| **Credential Verification / KYC**    |                   | zkMe      |        |            |
+| **Accounting in Energy Grids**       |                   |           | BloGPV |            |
+| **Business Process management**      |                   | ykFL      |        | Baseline   |
+| **Federated Learning**               |                   |           |        |            |
 
 
 ### Transaction Aggregation
