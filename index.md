@@ -24,4 +24,4 @@ A [ZoKrates](https://github.com/Zokrates/ZoKrates) program written in a [domain 
 | **Federated Learning**               |                   | [zkFL](https://zokratesplus.github.io/federated_learning.html)         |        |            |
 
 
-Currently, we are trying to identify projects that would benefit most from our support. Feel free to [reach out](./contact.html) and share your practical zero knowledge experience or needs.
+Your project is missing? Feel free to [reach out](./contact.html) and share your practical zero knowledge experience or needs.
