@@ -17,18 +17,12 @@ A [ZoKrates](https://github.com/Zokrates/ZoKrates) program written in a [domain 
 
 |                                      | Candidate         | Prototype | Pilot  | Deployment |
 |:-------------------------------------|:------------------|:----------|:-------|:-----------|
-| **Transaction Aggregation**          | zkRollups / Tezos |           |        | [Polygon](https://polygon.technology/solutions/polygon-nightfall/)    |
+| **Transaction Aggregation**          | zkRollups / Tezos |           |        | [Polygon](https://zokratesplus.github.io/transaction_aggregation.html)    |
 | **Credential Verification / KYC**    |                   | zkMe      |        |            |
 | **Accounting in Energy Grids**       |                   |           | BloGPV |            |
 | **Business Process management**      |                   | ykFL      |        | Baseline   |
 | **Federated Learning**               |                   |           |        |            |
 
-
-### Transaction Aggregation
-
-*   **Context:** Rollups enable verifiable off-chain aggregation of token transaction, thereby, reducing transactional costs and enabling privacy.
-*   **Potential:** Through ZoKrates, the transaction aggregation can be executed as a zkSNARK that is verifiable by a dedicated Rollup smart contract.
-*   **Technology:** ZoKrates represents the core of [Polygon Nightfall](https://polygon.technology/solutions/polygon-nightfall/), a novel rollup protocol [developed by EY](https://github.com/EYBlockchain/nightfall_3) and Polygon that is now live.
 
 
 ### Anonymous Credentials
